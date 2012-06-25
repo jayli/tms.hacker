@@ -36,12 +36,18 @@
         },
 		onChange: function() {
 			var that = this;
+			return;
 			clearTimeout(delay);
 			delay = setTimeout(function(){
+				return;
 				that.toTextArea();
 			}, 300);
 		}
+		//theme:'cobalt'
 
 	});
+	
+})();
 
-}());
+
+
